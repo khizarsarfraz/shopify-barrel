@@ -1,0 +1,68 @@
+<div class="main-section">
+
+  {% for block in section.blocks %}
+    <div class="block block-{{ block.type }}">
+
+      {% case block.type %}
+
+        {% when "image_block" %}
+          {% if block.settings.image != blank %}
+            <div class="image-wrapper">
+              <img src="{{ block.settings.image | image_url: width: 200 }}" alt="Block image" />
+            </div>
+          {% endif %}
+
+        {% when "text_block" %}
+          <div class="break">
+            <p>{{ block.settings.text }}</p>
+          </div>
+
+        {% else %}
+          <p>Unsupported block type</p>
+
+      {% endcase %}
+
+    </div>
+  {% endfor %}
+
+</div>
+
+{% schema %}
+{
+  "name": "Image & Text Blocks",
+  "blocks": [
+    {
+      "type": "image_block",
+      "name": "Image Block",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Select image"
+        }
+      ]
+    },
+    {
+      "type": "text_block",
+      "name": "Text Block",
+      "settings": [
+        {
+          "type": "textarea",
+          "id": "text",
+          "label": "Enter text"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Logo",
+      "category": "Custom",
+      "blocks": [
+        { "type": "image_block" },
+        { "type": "text_block" }
+      ]
+    }
+  ]
+}
+{% endschema %}

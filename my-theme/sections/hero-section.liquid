@@ -1,0 +1,87 @@
+<div class="text-image-split-section page-width">
+  
+
+  <div class="text-content">
+    {% for block in section.blocks %}
+      {% case block.type %}
+
+        {% when "heading_block" %}
+          <h6 class="block-heading">
+            {{ block.settings.heading }}
+          </h6>
+
+        {% when "paragraph_block" %}
+          <p class="block-paragraph">
+            {{ block.settings.text }}
+          </p>
+
+      {% endcase %}
+    {% endfor %}
+  </div>
+
+  
+  <div class="image-content">
+    {% for block in section.blocks %}
+      {% case block.type %}
+        {% when "image_block" %}
+          {% if block.settings.image != blank %}
+            <img 
+              src="{{ block.settings.image | image_url: width: 400 }}" alt="Section Image" class="block-image" />
+          {% endif %}
+      {% endcase %}
+    {% endfor %}
+  </div>
+
+</div>
+
+{% schema %}
+{
+  "name": "Text Image Split Section",
+  "blocks": [
+    {
+      "type": "heading_block",
+      "name": "Heading",
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading Text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph_block",
+      "name": "Paragraph",
+      "settings": [
+        {
+          "type": "textarea",
+          "id": "text",
+          "label": "Paragraph Text"
+        }
+      ]
+    },
+    {
+      "type": "image_block",
+      "name": "Image",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Select Image"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Text and Image Split",
+      "category": "Custom",
+      "blocks": [
+        { "type": "heading_block" },
+        { "type": "paragraph_block" },
+        { "type": "image_block" }
+      ]
+    }
+  ]
+}
+{% endschema %}
