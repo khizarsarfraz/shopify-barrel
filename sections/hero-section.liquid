@@ -14,7 +14,6 @@
           <p class="block-paragraph">
             {{ block.settings.text }}
           </p>
-
       {% endcase %}
     {% endfor %}
   </div>
@@ -25,8 +24,7 @@
       {% case block.type %}
         {% when "image_block" %}
           {% if block.settings.image != blank %}
-            <img 
-              src="{{ block.settings.image | image_url: width: 400 }}" alt="Section Image" class="block-image" />
+            <img src="{{ block.settings.image | image_url: width: 400 }}" alt="Section Image" class="block-image" />
           {% endif %}
       {% endcase %}
     {% endfor %}

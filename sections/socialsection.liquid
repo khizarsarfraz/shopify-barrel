@@ -1,0 +1,171 @@
+<hr class="custom-line">
+<div class="social-section page-width">
+  <div class="social-icons">
+    {% for block in section.blocks %}
+      {% case block.type %}
+        {% when 'heading_block' %}
+          <div class="headtext">{{ block.settings.text1 }}</div>
+
+        {% when 'imgblock_1' %}
+          <div class="img-join">
+            <img src="{{ block.settings.image1 | image_url: width: 200 }}" alt="Block image">
+          </div>
+
+        {% when 'imgblock_2' %}
+          <div class="img-join">
+            <img src="{{ block.settings.image2 | image_url: width: 200 }}" alt="Block image">
+          </div>
+
+        {% when 'imgblock_3' %}
+          <div class="img-join">
+            <img src="{{ block.settings.image3 | image_url: width: 200 }}" alt="Block image">
+          </div>
+
+        {% when 'imgblock_4' %}
+          <div class="img-join">
+            <img src="{{ block.settings.image4 | image_url: width: 200 }}" alt="Block image">
+          </div>
+      {% endcase %}
+    {% endfor %}
+  </div>
+
+  <div class="text-section">
+    {% for block in section.blocks %}
+      {% case block.type %}
+        {% when 'txtblock1' %}
+          <div class="headingg">{{ block.settings.txt1 }}</div>
+
+        {% when 'txtblock2' %}
+          <div class="headingpara">{{ block.settings.txt2 }}</div>
+      {% endcase %}
+    {% endfor %}
+  </div>
+
+  <div class="button-section">
+    {% for block in section.blocks %}
+      {% case block.type %}
+        {% when 'buttonblock' %}
+          <div class="btn">{{ block.settings.button1 }}</div>
+      {% endcase %}
+    {% endfor %}
+  </div>
+</div>
+<hr class="custom-line">
+{% schema %}
+{
+  "name": "Social Block",
+  "blocks": [
+    {
+      "type": "heading_block",
+      "name": "Text Area",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "text1",
+          "label": "Add Text"
+        }
+      ]
+    },
+
+    {
+      "type": "imgblock_1",
+      "name": "Image 1",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image1",
+          "label": "Select image"
+        }
+      ]
+    },
+
+    {
+      "type": "imgblock_2",
+      "name": "Image 2",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image2",
+          "label": "Select image"
+        }
+      ]
+    },
+
+    {
+      "type": "imgblock_3",
+      "name": "Image 3",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image3",
+          "label": "Select image"
+        }
+      ]
+    },
+
+    {
+      "type": "imgblock_4",
+      "name": "Image 4",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image4",
+          "label": "Select image"
+        }
+      ]
+    },
+
+    {
+      "type": "txtblock1",
+      "name": "Text Block 01",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "txt1",
+          "label": "Enter text"
+        }
+      ]
+    },
+
+    {
+      "type": "txtblock2",
+      "name": "Text Block 02",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "txt2",
+          "label": "Enter text"
+        }
+      ]
+    },
+
+    {
+      "type": "buttonblock",
+      "name": "Button Block",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "button1",
+          "label": "Enter text"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Social",
+      "category": "Custom",
+      "blocks": [
+        { "type": "heading_block" },
+        { "type": "imgblock_1" },
+        { "type": "imgblock_2" },
+        { "type": "imgblock_3" },
+        { "type": "imgblock_4" },
+        { "type": "txtblock1" },
+        { "type": "txtblock2" },
+        { "type": "buttonblock" }
+      ]
+    }
+  ]
+}
+{% endschema %}
