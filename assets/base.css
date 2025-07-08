@@ -3635,6 +3635,7 @@ details-disclosure > details {
 
 .block-heading {
   font-size: 2rem;
+  font-weight:bolder
   margin-bottom: 10px;
 }
 
