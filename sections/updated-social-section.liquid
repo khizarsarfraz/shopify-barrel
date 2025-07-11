@@ -1,0 +1,88 @@
+<div class="social-section page-width">
+  <div class="left-area">
+    <div class="share-label">{{ section.settings.share_label }}</div>
+    <div class="social-icons">
+      {% if section.settings.icon_facebook != blank %}
+        <img src="{{ section.settings.icon_facebook | image_url: width: 30 }}" alt="Facebook">
+      {% endif %}
+      {% if section.settings.icon_x != blank %}
+        <img src="{{ section.settings.icon_x | image_url: width: 30 }}" alt="X">
+      {% endif %}
+      {% if section.settings.icon_linkedin != blank %}
+        <img src="{{ section.settings.icon_linkedin | image_url: width: 30 }}" alt="LinkedIn">
+      {% endif %}
+      {% if section.settings.icon_email != blank %}
+        <img src="{{ section.settings.icon_email | image_url: width: 30 }}" alt="Email">
+      {% endif %}
+    </div>
+  </div>
+
+  <div class="center-area">
+    <div class="author">
+      <em>Written by</em> <strong>{{ section.settings.author }}</strong>
+    </div>
+    <div class="date">{{ section.settings.date }}</div>
+  </div>
+
+  <div class="right-area">
+    <div class="news-btn">{{ section.settings.button_label }}</div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Social Footer",
+  "settings": [
+    {
+      "type": "text",
+      "id": "share_label",
+      "label": "Share Text",
+      "default": "SHARE"
+    },
+    {
+      "type": "image_picker",
+      "id": "icon_facebook",
+      "label": "Facebook Icon"
+    },
+    {
+      "type": "image_picker",
+      "id": "icon_x",
+      "label": "X (Twitter) Icon"
+    },
+    {
+      "type": "image_picker",
+      "id": "icon_linkedin",
+      "label": "LinkedIn Icon"
+    },
+    {
+      "type": "image_picker",
+      "id": "icon_email",
+      "label": "Email Icon"
+    },
+    {
+      "type": "text",
+      "id": "author",
+      "label": "Author Name",
+      "default": "Arturs"
+    },
+    {
+      "type": "text",
+      "id": "date",
+      "label": "Published Date",
+      "default": "FRIDAY, JUNE 27, 2025"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button Text",
+      "default": "NEWS"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Social Section",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}

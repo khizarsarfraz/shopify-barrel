@@ -1,0 +1,23 @@
+<div class="custom-contnt page-width">
+  <h1 class="content">{{ section.settings.content_para }}</h1>
+</div>
+
+{% schema %}
+{
+  "name": "Content",
+  "settings": [
+    {
+      "type": "textarea",
+      "id": "content_para",
+      "label": "Enter Text"
+    }
+  ],
+
+  "presets": [
+    {
+      "name": "Custom Paragraph",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,27 @@
+<div class="content-img page-width">
+  <div class="content-banner-img">
+    {% if section.settings.custom_img != blank %}
+      <img src="{{ section.settings.custom_img | image_url: width: 500 }}" alt="Image">
+    {% endif %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Content Image",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "custom_img",
+      "label": " Enter Image"
+    }
+  ],
+
+  "presets": [
+    {
+      "name": "Custom Image",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
