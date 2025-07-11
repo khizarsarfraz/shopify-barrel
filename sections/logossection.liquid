@@ -1,0 +1,73 @@
+<div class="logos-section page-width">
+  <p class="text-section">{{ section.settings.heading }}</p>
+
+  <div class="main-logos">
+    <div class="all-logos">
+      {% if section.settings.logo1 != blank %}
+        <div class="logo1"><img src="{{ section.settings.logo1 | image_url: width: 120 }}" alt="Logo"></div>
+      {% endif %}
+      {% if section.settings.logo2 != blank %}
+        <div class="logo2"><img src="{{ section.settings.logo2 | image_url: width: 120 }}" alt="Logo"></div>
+      {% endif %}
+      {% if section.settings.logo3 != blank %}
+        <div class="logo3"><img src="{{ section.settings.logo3 | image_url: width: 120 }}" alt="Logo"></div>
+      {% endif %}
+      {% if section.settings.logo4 != blank %}
+        <div class="logo4"><img src="{{ section.settings.logo4 | image_url: width: 120 }}" alt="Logo"></div>
+      {% endif %}
+      {% if section.settings.logo5 != blank %}
+        <div class="logo5"><img src="{{ section.settings.logo5 | image_url: width: 120 }}" alt="Logo"></div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Logos Section",
+  "settings": [
+    {
+      "type": "richtext",
+      "id": "heading",
+      "label": "Heading "
+    },
+
+    {
+      "type": "image_picker",
+      "id": "logo1",
+      "label": "Add Logo 1"
+    },
+
+    {
+      "type": "image_picker",
+      "id": "logo2",
+      "label": "Add Logo 2 "
+    },
+
+    {
+      "type": "image_picker",
+      "id": "logo3",
+      "label": "Add Logo 3"
+    },
+
+    {
+      "type": "image_picker",
+      "id": "logo4",
+      "label": "Add Logo 4"
+    },
+
+    {
+      "type": "image_picker",
+      "id": "logo5",
+      "label": "Add Logo 5"
+    }
+  ],
+
+  "presets": [
+    {
+      "name": "Logos Section",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
