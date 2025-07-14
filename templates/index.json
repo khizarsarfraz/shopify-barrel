@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_banner": {
@@ -14,7 +23,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
+            "button_link_1": "shopify://collections/all",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -66,10 +75,41 @@
         "padding_top": 44,
         "padding_bottom": 36
       }
+    },
+    "hero_section_687RbB": {
+      "type": "hero-section",
+      "blocks": {
+        "heading_block_wYtXz6": {
+          "type": "heading_block",
+          "settings": {
+            "heading": "They Were Tired of $399 Hockey sticks Snapping just outside warranty --This small Hockey company built stick not yet seen before"
+          }
+        },
+        "paragraph_block_CcxFi3": {
+          "type": "paragraph_block",
+          "settings": {
+            "text": "The <span style=\"color: #F49321; font-weight: bold\">Myst One hockey stick by Barrel </span>  is the first stick that truly delivers in its promises. Engineered with durability at its core, it uses an <span style=\"color: #F49321 ; font-weight: bold\">entirely new construction method and premium materials to last at least twice as long as $399 sticks.</span> Barrel Hockey stands behind every stick --if something goes wrong, you can reach out anytime. Even its break just outside the warranty, they'll personally review your case, often based on\nPhotos alone, once you try it, <span style=\"color: #F49321 ; font-weight: bold\"> you will never go back to overpriced, over hyped sticks again </span>"
+          }
+        },
+        "image_block_gPaW3g": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify://shop_images/10002.png"
+          }
+        }
+      },
+      "block_order": [
+        "heading_block_wYtXz6",
+        "paragraph_block_CcxFi3",
+        "image_block_gPaW3g"
+      ],
+      "name": "Text and Image Split",
+      "settings": {}
     }
   },
   "order": [
     "image_banner",
-    "featured_collection"
+    "featured_collection",
+    "hero_section_687RbB"
   ]
 }
