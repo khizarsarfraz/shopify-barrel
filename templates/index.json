@@ -216,6 +216,13 @@
       "settings": {
         "heading": "<h1><strong><br/>4 Secrets To Hockey Stick that<br/>Lasts and Performs</strong></h1>"
       }
+    },
+    "image_section_Ha9kNY": {
+      "type": "image-section",
+      "name": "Custom Image",
+      "settings": {
+        "custom_img": "shopify://shop_images/10010.png"
+      }
     }
   },
   "order": [
@@ -233,6 +240,7 @@
     "rich_text_3ULdM7",
     "simple_features_tC3PKR",
     "rich_text_U6EbTN",
-    "logossection_CMTXjy"
+    "logossection_CMTXjy",
+    "image_section_Ha9kNY"
   ]
 }
