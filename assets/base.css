@@ -3729,7 +3729,7 @@ details-disclosure > details {
 .logos-section{
  text-align: center;
  background-color:#F9E6C8 ;
- height: 170px;
+ /* height: 170px; */
  /* overflow: hidden; */
  padding-bottom: 10px;
 
@@ -3739,6 +3739,13 @@ details-disclosure > details {
   display: flex;
   text-align: center;
   justify-content: space-evenly;
+  flex-wrap: wrap;
+  & img {
+    width: 100%;
+  }
+  & > div {
+    flex-basis: 20%;
+  }
 }
 
 .text-section{
@@ -3751,6 +3758,9 @@ details-disclosure > details {
 
 .content-banner-img{
  text-align: center;
+ & img {
+  width: 100%;
+ }
 }
 
 
@@ -3798,4 +3808,29 @@ details-disclosure > details {
   color: #333;
   line-height: 1.6;
   font-weight:700;
+}
+
+@media only screen and (max-width: 500px) {
+  .social-section{
+    flex-wrap: nowrap;
+  }
+  .social-section .left-area {
+    flex-wrap: nowrap;
+  }
+  .social-section .share-label {
+    font-size: 11px;
+  }
+  .social-section .social-icons img {
+    width: 20px;
+    height: 20px;
+  }
+  .social-section .center-area {
+    font-size: 11px;
+  }
+  .social-section .news-btn {
+    padding: 5px 10px;
+    font-size: 11px;
+    
+
+  }
 }
