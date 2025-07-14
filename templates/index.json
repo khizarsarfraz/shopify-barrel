@@ -164,8 +164,8 @@
         "padding_bottom": 16
       }
     },
-    "promises_section_EKDApY": {
-      "type": "promises-section",
+    "simple_features_tC3PKR": {
+      "type": "simple-features",
       "name": "Simple Features",
       "settings": {
         "icon_1": "shopify://shop_images/check.png",
@@ -195,6 +195,6 @@
     "image_section_tiXUyJ",
     "custom_text_ALMKBj",
     "rich_text_3ULdM7",
-    "promises_section_EKDApY"
+    "simple_features_tC3PKR"
   ]
 }
