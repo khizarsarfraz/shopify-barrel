@@ -226,94 +226,42 @@
         "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
-    "image_section_Ha9kNY": {
-      "type": "image-section",
-      "name": "Custom Image",
-      "settings": {
-        "custom_img": "shopify://shop_images/10010.png"
-      }
-    },
-    "rich_text_4dt6iN": {
-      "type": "rich-text",
+    "hero_section_peai8V": {
+      "type": "hero-section",
       "blocks": {
-        "heading_6q6CFw": {
-          "type": "heading",
+        "heading_block_6n3bdf": {
+          "type": "heading_block",
           "settings": {
-            "heading": "<strong>1. Japanese-sourced carbon</strong>",
-            "heading_size": "h2"
+            "heading": "1. Japanese-sourced carbon"
+          }
+        },
+        "paragraph_block_k8EHbb": {
+          "type": "paragraph_block",
+          "settings": {
+            "text": "One of the key reasons the Myst One stands apart is its use of premium-grade carbon fiber sourced from Japan — widely regarded as the gold standard in composite materials. Unlike lower-grade carbon often produced in China, Japanese carbon is manufactured under strict quality controls, ensuring precise fiber alignment, minimal impurities, and consistent tensile strength.\n\nThis matters on the ice. Higher carbon purity means stronger and more flexible fibers, which translate to better energy transfer, greater impact resistance, and a longer lifespan under intense gameplay conditions. Where cheaper sticks often rely on bulk carbon sheets with inconsistent quality — leading to weak spots and early breakage — the Myst One’s carbon structure is engineered for maximum durability and performance consistency."
+          }
+        },
+        "image_block_P6qPBK": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify://shop_images/10010.png"
           }
         }
       },
       "block_order": [
-        "heading_6q6CFw"
+        "heading_block_6n3bdf",
+        "paragraph_block_k8EHbb",
+        "image_block_P6qPBK"
       ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "desktop_content_position": "left",
-        "custom_class": "",
-        "content_alignment": "left",
-        "color_scheme": "",
-        "full_width": false,
-        "padding_top": 16,
-        "padding_bottom": 16
-      }
-    },
-    "custom_text_3ByJaR": {
-      "type": "custom-text",
-      "name": "Custom Paragraph",
-      "settings": {
-        "content_para": "One of the key reasons the Myst One stands apart is its use of premium-grade carbon fiber sourced from Japan — widely regarded as the gold standard in composite materials. Unlike lower-grade carbon often produced in China, Japanese carbon is manufactured under strict quality controls, ensuring precise fiber alignment, minimal impurities, and consistent tensile strength.\n\nThis matters on the ice. Higher carbon purity means stronger and more flexible fibers, which translate to better energy transfer, greater impact resistance, and a longer lifespan under intense gameplay conditions. Where cheaper sticks often rely on bulk carbon sheets with inconsistent quality — leading to weak spots and early breakage — the Myst One’s carbon structure is engineered for maximum durability and performance consistency."
-      }
-    },
-    "image_section_gyRC8z": {
-      "type": "image-section",
-      "name": "Custom Image",
-      "settings": {
-        "custom_img": "shopify://shop_images/10003_2.png"
-      }
-    },
-    "rich_text_FTfJYN": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_ny6WX4": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>2. Thin Foil Wrap around the shaft</strong>",
-            "heading_size": "h2"
-          }
-        }
-      },
-      "block_order": [
-        "heading_ny6WX4"
+      "custom_css": [
+        ".text-image-split-section {border: none;}"
       ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "desktop_content_position": "left",
-        "custom_class": "",
-        "content_alignment": "left",
-        "color_scheme": "",
-        "full_width": false,
-        "padding_top": 16,
-        "padding_bottom": 16
-      }
-    },
-    "custom_text_AmEpeL": {
-      "type": "custom-text",
-      "name": "Custom Paragraph",
-      "settings": {
-        "content_para": "To boost durability even further, the Myst One features a thin foil wrap layered around the carbon shaft. This acts as a first line of defense against impacts, chips, and surface cuts — protecting the carbon structure underneath from early wear. It’s a small detail with a big effect: longer stick life and better resistance to the abuse of daily play.\n\nIt’s also why you won’t see the carbon weave through the surface like on other sticks — because performance comes first, not just looks.\n<br>\n<br>"
-      }
-    },
-    "image_section_BJa3hQ": {
-      "type": "image-section",
-      "name": "Custom Image",
-      "settings": {
-        "custom_img": "shopify://shop_images/10006.png"
-      }
+      "name": "Text and Image Split",
+      "settings": {}
     }
   },
   "order": [
@@ -333,12 +281,6 @@
     "rich_text_U6EbTN",
     "logossection_CMTXjy",
     "rich_text_3kjQHq",
-    "image_section_Ha9kNY",
-    "rich_text_4dt6iN",
-    "custom_text_3ByJaR",
-    "image_section_gyRC8z",
-    "rich_text_FTfJYN",
-    "custom_text_AmEpeL",
-    "image_section_BJa3hQ"
+    "hero_section_peai8V"
   ]
 }
