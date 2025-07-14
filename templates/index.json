@@ -64,11 +64,53 @@
         "logo4": "shopify://shop_images/10005.png",
         "logo5": "shopify://shop_images/10001_7f9f26e6-a111-4531-9eed-b875d9c4d116.png"
       }
+    },
+    "rich_text_9ixUpy": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_gYiL9g": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>The hockey industry's biggest brands keep failing the very people who fuel their success - the player</strong>",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_gYiL9g"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "custom_class": "",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": false,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "custom_text_JGCJxQ": {
+      "type": "custom-text",
+      "name": "Custom Paragraph",
+      "settings": {
+        "content_para": "In 2022, Aksels Zingulis — a passionate hockey player and entrepreneur from Latvia, a small country with big dreams but limited resources — finally got his hands on a high-end stick from one of the top brands. It was on clearance, but still cost a hefty 200 EUR.  <span style=\"color: #F49321; font-weight: bold\">Two weeks into using it, the stick snapped — right where the blade meets the shaft.</span> It was under warranty, so Aksels did what any customer would do: he went back to the store and asked for a replacement.\n\n<span style=\"color: #F49321; font-weight: bold \">But instead of standing behind their product, the brand pointed fingers.</span> They blamed him. No replacement. No apology. Just a cold rejection."
+      }
+    },
+    "image_section_7VwLjc": {
+      "type": "image-section",
+      "name": "Custom Image",
+      "settings": {
+        "custom_img": "shopify://shop_images/10003_65a397bb-f14a-4362-9901-5244da441653.png"
+      }
     }
   },
   "order": [
     "hero_section_687RbB",
     "updated_social_section_pAQ6ym",
-    "logossection_wRgJXM"
+    "logossection_wRgJXM",
+    "rich_text_9ixUpy",
+    "custom_text_JGCJxQ",
+    "image_section_7VwLjc"
   ]
 }
