@@ -103,6 +103,27 @@
       "settings": {
         "custom_img": "shopify://shop_images/10003_65a397bb-f14a-4362-9901-5244da441653.png"
       }
+    },
+    "custom_text_6MQcbq": {
+      "type": "custom-text",
+      "name": "Custom Paragraph",
+      "settings": {
+        "content_para": "<span style=\"color: #F49321; font-weight: bold\">Frustrated and disheartened, Aksels turned to the brand’s website to leave a review — and what he found shocked him. </span> Dozens, if not hundreds, of players had experienced the same thing. Broken sticks. Denied warranties. Empty promises. <span style=\"color: #F49321; font-weight: bold \">He realized this wasn’t bad luck. It was a broken system.</span>\n\nThat moment lit a fire.\n\nLater that year, Aksels joined forces with his close friend Reinis Nikulcevs — an engineer with a deep background in material science — to find out why so many sticks were failing. What started as a personal mission quickly became something much bigger. <span style=\"color: #F49321; font-weight: bold \">They uncovered what the industry had ignored for years: a smarter, science-backed way\nto design sticks that actually last. </span>"
+      }
+    },
+    "image_section_6rjENi": {
+      "type": "image-section",
+      "name": "Custom Image",
+      "settings": {
+        "custom_img": "shopify://shop_images/10001.jpg"
+      }
+    },
+    "custom_text_drtXGa": {
+      "type": "custom-text",
+      "name": "Custom Paragraph",
+      "settings": {
+        "content_para": "As Aksels and Reinis dove deeper into the world of hockey sticks, they started testing everything the market had to offer — from the flashy, high-priced sticks of the big-name brands to the budget-friendly options flooding online stores.\n<br>\n<br>\n<span style=\"color: #F49321; font-weight: bold \">The premium sticks — the ones with sleek logos, overhyped “technology,” and elite-level price tags — looked impressive on paper. </span>\n<br>\nThey came wrapped in buzzwords and promises of next-level performance. But in practice? <span style=\"color: #F49321; font-weight: bold \">They didn’t hold up. </span> Durability was still an issue, and many of the so-called “features” turned out to be more marketing gimmick than real innovation. <span style=\"color: #F49321; font-weight: bold \">Worst of all, they cost a fortune — breaking both on the ice and in your wallet. </span>\n<br>\n<br>\nOn the other end of the spectrum were the low-cost sticks — the no-name brands, often produced in bulk in overseas factories. At first glance, they seemed like a tempting alternative. But it didn’t take long to see the cracks — literally. <span style=\"color: #F49321; font-weight: bold \">Some broke within days. </span>Others were designed so poorly that Aksels found actual ridges running along the inside of the shaft — completely throwing off performance and feel. <span style=\"color: #F49321; font-weight: bold \">Most of them were nothing more than cheap replicas of the big brands — poorly engineered and rushed out of factories in China without any real innovation or testing behind them.</span>\n<br>\n<br>\nBetween overpriced hype and unreliable knockoffs, players were left with a brutal choice: overspend for disappointment, or save money and\ngamble on junk."
+      }
     }
   },
   "order": [
@@ -111,6 +132,9 @@
     "logossection_wRgJXM",
     "rich_text_9ixUpy",
     "custom_text_JGCJxQ",
-    "image_section_7VwLjc"
+    "image_section_7VwLjc",
+    "custom_text_6MQcbq",
+    "image_section_6rjENi",
+    "custom_text_drtXGa"
   ]
 }
