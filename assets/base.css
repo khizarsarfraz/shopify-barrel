@@ -3804,7 +3804,7 @@ details-disclosure > details {
 }
 
 .bottom-text {
-  font-size: 18px;
+  font-size: 17px;
   color: #333;
   line-height: 1.6;
   font-weight:700;
@@ -3830,7 +3830,11 @@ details-disclosure > details {
   .social-section .news-btn {
     padding: 5px 10px;
     font-size: 11px;
+<<<<<<< HEAD
+
+=======
     
+>>>>>>> 06c3096a249e71329bc09fb677246cee1f507b20
 
   }
 }
