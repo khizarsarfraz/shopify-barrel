@@ -138,6 +138,48 @@
       "settings": {
         "content_para": "During their journey to make the perfect hockey stick, Aksels and Reinis met with engineers and producers in Europe — a mission that led to the creation of Barrel Hockey Myst One, a stick built not just to compete with the best, but to challenge the industry’s entire status quo."
       }
+    },
+    "rich_text_3ULdM7": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_hVRPbj": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Myst One delivers what others only promise:</strong>",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hVRPbj"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "custom_class": "",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "promises_section_EKDApY": {
+      "type": "promises-section",
+      "name": "Simple Features",
+      "settings": {
+        "icon_1": "shopify://shop_images/check.png",
+        "text_1": "Exceptional durability and balance, engineered for high-performance play.",
+        "icon_2": "shopify://shop_images/check.png",
+        "text_2": "Carbon bridges reinforce the structure, dramatically boosting strength without adding weight.",
+        "icon_3": "shopify://shop_images/check.png",
+        "text_3": "Perfectly balanced design gives players that feather-light feel and ultimate control.",
+        "icon_4": "shopify://shop_images/check.png",
+        "text_4": "One-piece construction ensures maximum energy transfer with every shot",
+        "icon_5": "shopify://shop_images/check.png",
+        "text_5": "Quick puck release powered by a unique carbon fiber orientation for explosive responsiveness.",
+        "bottom_text": "In a world full of overhyped sticks and underwhelming results, Myst One is the reliable, high-performance weapon elite players have been waiting for — and it comes at a price that respects your game and your wallet."
+      }
     }
   },
   "order": [
@@ -151,6 +193,8 @@
     "image_section_6rjENi",
     "custom_text_drtXGa",
     "image_section_tiXUyJ",
-    "custom_text_ALMKBj"
+    "custom_text_ALMKBj",
+    "rich_text_3ULdM7",
+    "promises_section_EKDApY"
   ]
 }
