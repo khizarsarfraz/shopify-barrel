@@ -131,6 +131,13 @@
       "settings": {
         "custom_img": "shopify://shop_images/10001_1.png"
       }
+    },
+    "custom_text_ALMKBj": {
+      "type": "custom-text",
+      "name": "Custom Paragraph",
+      "settings": {
+        "content_para": "During their journey to make the perfect hockey stick, Aksels and Reinis met with engineers and producers in Europe — a mission that led to the creation of Barrel Hockey Myst One, a stick built not just to compete with the best, but to challenge the industry’s entire status quo."
+      }
     }
   },
   "order": [
@@ -143,6 +150,7 @@
     "custom_text_6MQcbq",
     "image_section_6rjENi",
     "custom_text_drtXGa",
-    "image_section_tiXUyJ"
+    "image_section_tiXUyJ",
+    "custom_text_ALMKBj"
   ]
 }
