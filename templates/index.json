@@ -305,7 +305,14 @@
       "type": "custom-text",
       "name": "Custom Paragraph",
       "settings": {
-        "content_para": "To boost durability even further, the Myst One features a thin foil wrap layered around the carbon shaft. This acts as a first line of defense against impacts, chips, and surface cuts — protecting the carbon structure underneath from early wear. It’s a small detail with a big effect: longer stick life and better resistance to the abuse of daily play.\n\nIt’s also why you won’t see the carbon weave through the surface like on other sticks — because performance comes first, not just looks."
+        "content_para": "To boost durability even further, the Myst One features a thin foil wrap layered around the carbon shaft. This acts as a first line of defense against impacts, chips, and surface cuts — protecting the carbon structure underneath from early wear. It’s a small detail with a big effect: longer stick life and better resistance to the abuse of daily play.\n\nIt’s also why you won’t see the carbon weave through the surface like on other sticks — because performance comes first, not just looks.\n<br>\n<br>"
+      }
+    },
+    "image_section_BJa3hQ": {
+      "type": "image-section",
+      "name": "Custom Image",
+      "settings": {
+        "custom_img": "shopify://shop_images/10006.png"
       }
     }
   },
@@ -331,6 +338,7 @@
     "custom_text_3ByJaR",
     "image_section_gyRC8z",
     "rich_text_FTfJYN",
-    "custom_text_AmEpeL"
+    "custom_text_AmEpeL",
+    "image_section_BJa3hQ"
   ]
 }
