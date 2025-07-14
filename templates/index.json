@@ -9,73 +9,6 @@
  */
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Browse our latest products",
-            "heading_size": "h0"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "button"
-      ],
-      "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "image_behavior": "none",
-        "desktop_content_position": "bottom-center",
-        "desktop_content_alignment": "center",
-        "show_text_box": false,
-        "color_scheme": "scheme-3",
-        "stack_images_on_mobile": false,
-        "mobile_content_alignment": "center",
-        "show_text_below": false
-      }
-    },
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "all",
-        "products_to_show": 8,
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "columns_desktop": 4,
-        "enable_desktop_slider": false,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "color_scheme": "scheme-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 44,
-        "padding_bottom": 36
-      }
-    },
     "hero_section_687RbB": {
       "type": "hero-section",
       "blocks": {
@@ -105,11 +38,37 @@
       ],
       "name": "Text and Image Split",
       "settings": {}
+    },
+    "updated_social_section_pAQ6ym": {
+      "type": "updated-social-section",
+      "name": "Social Section",
+      "settings": {
+        "share_label": "SHARE",
+        "icon_facebook": "shopify://shop_images/100066.png",
+        "icon_x": "shopify://shop_images/10001.png",
+        "icon_linkedin": "shopify://shop_images/10003.png",
+        "icon_email": "shopify://shop_images/170_Awesome_Aesthetic_App_Icons_for_iOS_14.jpg",
+        "author": "Arturs",
+        "date": "FRIDAY, JUNE 27, 2025",
+        "button_label": "NEWS"
+      }
+    },
+    "logossection_wRgJXM": {
+      "type": "logossection",
+      "name": "Logos Section",
+      "settings": {
+        "heading": "<p>As Seen In</p>",
+        "logo1": "shopify://shop_images/10001_2.png",
+        "logo2": "shopify://shop_images/10004.png",
+        "logo3": "shopify://shop_images/10001_3.png",
+        "logo4": "shopify://shop_images/10005.png",
+        "logo5": "shopify://shop_images/10001_7f9f26e6-a111-4531-9eed-b875d9c4d116.png"
+      }
     }
   },
   "order": [
-    "image_banner",
-    "featured_collection",
-    "hero_section_687RbB"
+    "hero_section_687RbB",
+    "updated_social_section_pAQ6ym",
+    "logossection_wRgJXM"
   ]
 }
