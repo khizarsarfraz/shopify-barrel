@@ -262,6 +262,72 @@
       ],
       "name": "Text and Image Split",
       "settings": {}
+    },
+    "hero_section_jArJ4j": {
+      "type": "hero-section",
+      "blocks": {
+        "heading_block_QRDWkh": {
+          "type": "heading_block",
+          "settings": {
+            "heading": "2. Thin Foil Wrap around the shaft"
+          }
+        },
+        "paragraph_block_JVXyzT": {
+          "type": "paragraph_block",
+          "settings": {
+            "text": "To boost durability even further, the Myst One features a thin foil wrap layered around the carbon shaft. This acts as a first line of defense against impacts, chips, and surface cuts — protecting the carbon structure underneath from early wear. It’s a small detail with a big effect: longer stick life and better resistance to the abuse of daily play.It’s also why you won’t see the carbon weave through the surface like on other sticks — because performance comes first, not just looks."
+          }
+        },
+        "image_block_c8fNxj": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify://shop_images/10006.png"
+          }
+        }
+      },
+      "block_order": [
+        "heading_block_QRDWkh",
+        "paragraph_block_JVXyzT",
+        "image_block_c8fNxj"
+      ],
+      "custom_css": [
+        ".text-image-split-section {border: none;}"
+      ],
+      "name": "Text and Image Split",
+      "settings": {}
+    },
+    "hero_section_qdcp7W": {
+      "type": "hero-section",
+      "blocks": {
+        "heading_block_G7EWKq": {
+          "type": "heading_block",
+          "settings": {
+            "heading": "3. Reinforced Walls"
+          }
+        },
+        "paragraph_block_Eh9XLk": {
+          "type": "paragraph_block",
+          "settings": {
+            "text": "Most lightweight sticks sacrifice durability by thinning the shaft walls or tweaking the geometry to save a few grams — but that comes at a cost: early breakage. The Myst One takes a different approach. We intentionally reinforced the shaft with extra material, making the walls slightly thicker for greater strength and impact resistance.Yes, it’s about 30 grams heavier, but here’s the trick — we’ve shifted the balance point higher, toward the top hand. This gives the stick a lighter feel in play, without compromising on durability. More strength where it counts. Light in the hands. Built to last."
+          }
+        },
+        "image_block_XNLxnx": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify://shop_images/10009.png"
+          }
+        }
+      },
+      "block_order": [
+        "heading_block_G7EWKq",
+        "paragraph_block_Eh9XLk",
+        "image_block_XNLxnx"
+      ],
+      "custom_css": [
+        ".text-image-split-section {border: none;}"
+      ],
+      "name": "Text and Image Split",
+      "settings": {}
     }
   },
   "order": [
@@ -281,6 +347,8 @@
     "rich_text_U6EbTN",
     "logossection_CMTXjy",
     "rich_text_3kjQHq",
-    "hero_section_peai8V"
+    "hero_section_peai8V",
+    "hero_section_jArJ4j",
+    "hero_section_qdcp7W"
   ]
 }
