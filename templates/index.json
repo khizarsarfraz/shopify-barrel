@@ -281,7 +281,7 @@
         "image_block_c8fNxj": {
           "type": "image_block",
           "settings": {
-            "image": "shopify://shop_images/10006.png"
+            "image": "shopify://shop_images/10003_2.png"
           }
         }
       },
@@ -314,7 +314,7 @@
         "image_block_XNLxnx": {
           "type": "image_block",
           "settings": {
-            "image": "shopify://shop_images/10009.png"
+            "image": "shopify://shop_images/10006.png"
           }
         }
       },
@@ -335,18 +335,20 @@
         "heading_block_R8n8i9": {
           "type": "heading_block",
           "settings": {
-            "heading": ""
+            "heading": "4. The science of balance"
           }
         },
         "paragraph_block_X7QWFH": {
           "type": "paragraph_block",
           "settings": {
-            "text": ""
+            "text": "In high-performance sports like hockey, balance is just as critical as weight — it directly affects how the stick feels, moves, and performs. The Myst One is engineered with a strategic balance point placed closer to the top hand, giving it a lighter in-hand feel while maintaining structural integrity through added shaft reinforcement.This optimized weight distribution is a crucial aspect of the swing weight — the effective resistance you feel when moving the stick, which plays a major role in shot power, quickness, and pass precision. It’s a principle proven in both tennis and golf, where elite players choose equipment based on balance, not just raw weight. In fact, studies in both sports show that too light a setup can reduce energy transfer, timing accuracy, and control.By fine-tuning the balance rather than chasing the lowest gram count, the Myst One delivers responsive handling, powerful shots, and elite-level feel — exactly where it matters most."
           }
         },
         "image_block_rkakYx": {
           "type": "image_block",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/10009.png"
+          }
         }
       },
       "block_order": [
@@ -355,7 +357,7 @@
         "image_block_rkakYx"
       ],
       "custom_css": [
-        ".text-image-split-section{border: none}"
+        ".text-image-split-section {border: none;}"
       ],
       "name": "Text and Image Split",
       "settings": {}
