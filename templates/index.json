@@ -180,6 +180,42 @@
         "text_5": "Quick puck release powered by a unique carbon fiber orientation for explosive responsiveness.",
         "bottom_text": "In a world full of overhyped sticks and underwhelming results, Myst One is the reliable, high-performance weapon elite players have been waiting for — and it comes at a price that respects your game and your wallet."
       }
+    },
+    "rich_text_U6EbTN": {
+      "type": "rich-text",
+      "blocks": {
+        "button_aeF4Qh": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "button_aeF4Qh"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "custom_class": "",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "logossection_CMTXjy": {
+      "type": "logossection",
+      "name": "Logos Section",
+      "settings": {
+        "heading": "<h1><strong><br/>4 Secrets To Hockey Stick that<br/>Lasts and Performs</strong></h1>"
+      }
     }
   },
   "order": [
@@ -195,6 +231,8 @@
     "image_section_tiXUyJ",
     "custom_text_ALMKBj",
     "rich_text_3ULdM7",
-    "simple_features_tC3PKR"
+    "simple_features_tC3PKR",
+    "rich_text_U6EbTN",
+    "logossection_CMTXjy"
   ]
 }
