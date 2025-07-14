@@ -217,11 +217,56 @@
         "heading": "<h1><strong><br/>4 Secrets To Hockey Stick that<br/>Lasts and Performs</strong></h1>"
       }
     },
+    "rich_text_3kjQHq": {
+      "type": "rich-text",
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "custom_class": "",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "image_section_Ha9kNY": {
       "type": "image-section",
       "name": "Custom Image",
       "settings": {
         "custom_img": "shopify://shop_images/10010.png"
+      }
+    },
+    "rich_text_4dt6iN": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6q6CFw": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>1. Japanese-sourced carbon</strong>",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6q6CFw"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "custom_class": "",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "custom_text_3ByJaR": {
+      "type": "custom-text",
+      "name": "Custom Paragraph",
+      "settings": {
+        "content_para": "One of the key reasons the Myst One stands apart is its use of premium-grade carbon fiber sourced from Japan — widely regarded as the gold standard in composite materials. Unlike lower-grade carbon often produced in China, Japanese carbon is manufactured under strict quality controls, ensuring precise fiber alignment, minimal impurities, and consistent tensile strength.\n\nThis matters on the ice. Higher carbon purity means stronger and more flexible fibers, which translate to better energy transfer, greater impact resistance, and a longer lifespan under intense gameplay conditions. Where cheaper sticks often rely on bulk carbon sheets with inconsistent quality — leading to weak spots and early breakage — the Myst One’s carbon structure is engineered for maximum durability and performance consistency."
       }
     }
   },
@@ -241,6 +286,9 @@
     "simple_features_tC3PKR",
     "rich_text_U6EbTN",
     "logossection_CMTXjy",
-    "image_section_Ha9kNY"
+    "rich_text_3kjQHq",
+    "image_section_Ha9kNY",
+    "rich_text_4dt6iN",
+    "custom_text_3ByJaR"
   ]
 }
