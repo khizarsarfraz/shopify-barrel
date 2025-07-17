@@ -361,6 +361,44 @@
       ],
       "name": "Text and Image Split",
       "settings": {}
+    },
+    "slideshow_mNMqjm": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_TwAyte": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Untitled-1_1.jpg",
+            "image_overlay_opacity": 0,
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "show_text_box": false,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_TwAyte"
+      ],
+      "name": "t:sections.slideshow.presets.name",
+      "settings": {
+        "custom_12": "",
+        "layout": "full_bleed",
+        "slide_height": "small",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
     }
   },
   "order": [
@@ -383,6 +421,7 @@
     "hero_section_peai8V",
     "hero_section_jArJ4j",
     "hero_section_qdcp7W",
-    "hero_section_pdVXcK"
+    "hero_section_pdVXcK",
+    "slideshow_mNMqjm"
   ]
 }
