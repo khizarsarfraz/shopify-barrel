@@ -399,6 +399,45 @@
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
       }
+    },
+    "image_with_text_QDdQxG": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_MXfWeK": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Tommy Huggett, from HOCKEY TUTORIAL</strong>",
+            "heading_size": "h2"
+          }
+        },
+        "text_8nzPzA": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>“Wrist shots, Slap shots, Backhand, it is really great at all three... and feels good with the puck as well. I really, really like this stick!”</h2>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_MXfWeK",
+        "text_8nzPzA"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/9a1ee724-cd07-4343-9829-2734740803cc.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-3",
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
     }
   },
   "order": [
@@ -422,6 +461,7 @@
     "hero_section_jArJ4j",
     "hero_section_qdcp7W",
     "hero_section_pdVXcK",
-    "slideshow_mNMqjm"
+    "slideshow_mNMqjm",
+    "image_with_text_QDdQxG"
   ]
 }
